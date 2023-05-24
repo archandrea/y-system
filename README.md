@@ -1,4 +1,5 @@
-# vue-test
+# y-system
+an enterprise management system
 
 ## Project setup
 ```
