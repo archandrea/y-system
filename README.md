@@ -1,4 +1,7 @@
-# vue-test
+### Standard
+
+# y-system
+an enterprise management system
 
 ## Project setup
 ```
@@ -24,4 +27,3 @@ pnpm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Standard
-devStandard
