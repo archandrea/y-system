@@ -17,5 +17,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-node_modules

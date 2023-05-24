@@ -1,8 +1,3 @@
-### Standard
-
-# y-system
-an enterprise management system
-
 ## Project setup
 ```
 pnpm install
@@ -25,3 +20,7 @@ pnpm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Standard
+main
+dev
