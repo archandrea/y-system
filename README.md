@@ -3,8 +3,6 @@
 # y-system
 an enterprise management system
 
-# vue-test
-
 ## Project setup
 ```
 pnpm install
