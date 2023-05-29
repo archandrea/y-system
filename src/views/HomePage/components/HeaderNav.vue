@@ -1,14 +1,16 @@
 <template>
   <div>
-    
-    <el-menu class="el-menu-demo"
-             mode="horizontal"
-             background-color="#eee">
-      <el-menu-item index="1">处理中心</el-menu-item>
-      <el-menu-item index="2">消息中心</el-menu-item>
-      <el-menu-item index="3">消息中心</el-menu-item>
-      <el-menu-item index="4">消息中心</el-menu-item>
-      <el-menu-item index="5">消息中心</el-menu-item>
+    <el-menu
+      class="header__nav"
+      router
+      mode="horizontal"
+      background-color="#fff"
+      text-color="#aaa"
+      active-text-color="#000">
+      <el-menu-item index="/process">处理流程</el-menu-item>
+      <el-menu-item index="/project">项目管理</el-menu-item>
+      <el-menu-item index="/message">消息中心</el-menu-item>
+      <el-menu-item index="/database">数据中心</el-menu-item>
     </el-menu>
   </div>
 </template>
@@ -17,9 +19,7 @@
 export default {
   components: {},
   data() {
-    return {
-      activeIndex: '1',
-    }
+    return {}
   },
   computed: {},
   methods: {},
@@ -27,10 +27,8 @@ export default {
 </script>
 
 <style lang="stylus">
-+prefix-classes('el-')
-  .menu-demo
-    margin: 10px
-    padding: 20px
-    .item
-      margin: 10px
+.header__nav
+  .el-menu-item
+    font-size: 14px
+    font-weight: 500
 </style>
