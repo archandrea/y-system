@@ -1,16 +1,14 @@
 <template>
-  <div>
-    <router-link to="/">
-      <h1
-        class="header__logo"
-        id="logo">
-        <span>L</span>
-        <span>O</span>
-        <span>G</span>
-        <span>O</span>
-      </h1>
-    </router-link>
-  </div>
+  <router-link to="/">
+    <h1
+      class="header__logo"
+      id="logo">
+      <span>L</span>
+      <span>O</span>
+      <span>G</span>
+      <span>O</span>
+    </h1>
+  </router-link>
 </template>
 
 <script>

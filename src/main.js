@@ -7,6 +7,7 @@ import '@/assets/stylus/general.styl'
 
 // plugins
 import './plugins/axios'
+import './plugins/mock'
 import './plugins/elementUI'
 import 'element-ui/lib/theme-chalk/index.css';
 import './plugins/echarts.js'

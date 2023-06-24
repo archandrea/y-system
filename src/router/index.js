@@ -5,31 +5,39 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    name: 'home',
     path: '/',
-    component: () => import('@/views/HomePage/HomePage.vue'),
+    redirect: 'home',
+  },
+  {
+    name: 'home',
+    path: '/home',
+    component: () => import('@/views/HomePage'),
     children: [
       {
         name: 'process',
         path: '/process',
-        component: () => import('@/views/HomePage/HomePage.vue'),
+        component: () => import('@/views/ProcessPage'),
       },
       {
         name: 'project',
         path: '/project',
-        component: () => import('@/views/HomePage/HomePage.vue'),
+        component: () => import('@/views/ProjectPage'),
       },
       {
         name: 'message',
         path: '/message',
-        component: () => import('@/views/HomePage/HomePage.vue'),
+        component: () => import('@/views/HomePage'),
       },
       {
         name: 'database',
         path: '/database',
-        component: () => import('@/views/DatabasePage/DatabasePage.vue'),
+        component: () => import('@/views/DatabasePage'),
       },
     ]
+  },
+  {
+    path: '*',
+    redirect: 'home'
   }
 ]
 
